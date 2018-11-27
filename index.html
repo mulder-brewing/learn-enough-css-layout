@@ -4,21 +4,33 @@
     <meta charset="utf-8">
     <title>Test Page: Don't Panic</title>
     <style>
-      a {
-        color:red;
-      }
-      div {
-        border: 1px solid black;
-      }
-      div a {
-        color: green;
-      }
-      li {
-        border: 1px solid black;
-      }
-      li a {
-        color: gray;
-      }
+      /* Regular CSS selectors */
+        a {
+          color:red;
+        }
+        li {
+          border: 1px solid black;
+        }
+        li a {
+          color: gray;
+        }
+      /* ID CSS Selectors */
+        #background-orange {
+          background-color: orange;
+        }
+        #exec-bio {
+          background-color: lightgray;
+        }
+      /* Class Selectors */
+        .background-azure {
+          background-color: azure;
+        }
+        .bio-box {
+          border: 1px solid black;
+        }
+        .bio-box a {
+          color: green;
+        }
     </style>
   </head>
   <body>
@@ -29,16 +41,16 @@
       <li><a href="http://example.com/">Link</a></li>
     </ul>
     <h2>I'm an h2</h2>
-    <div>
+    <div id="exec-bio" class="bio-box background-azure">
+      <a href="http://example.com/" id= "background-orange">I'm a Link</a>
+    </div>
+    <div class="bio-box background-azure">
       <a href="http://example.com/">I'm a Link</a>
     </div>
-    <div>
+    <div class="bio-box background-azure">
       <a href="http://example.com/">I'm a Link</a>
     </div>
-    <div>
-      <a href="http://example.com/">I'm a Link</a>
-    </div>
-    <div>
+    <div class="bio-box background-azure">
       <a href="http://example.com/">I'm a Link</a>
     </div>
   </body>
