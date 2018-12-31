@@ -5,7 +5,7 @@
   <title>Test Page: Don't Panic</title>
   <link rel="stylesheet" href="/css/reset.css">
   <link rel="stylesheet" href="/css/main.css">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
   <body>
@@ -14,7 +14,17 @@
     <ul class="header-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <span class="drop-trigger">Blog</span>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li> <a href="/2018/12/26/second-post.html">My second post</a> </li>
+      
+      <li> <a href="/2018/12/17/first-post.html">My first post</a> </li>
+      
+  </ul>
+</li>
 <li><a href="/2018/12/26/second-post.html">Newest Post</a></li>
 
     </ul>
@@ -81,7 +91,7 @@
     <div class="blog-posts">
       <header class="post-header">
         <h2>
-          <a href="/2018/12/26/second-post.html">This is the title of the post</a>
+          <a href="/2018/12/26/second-post.html">My second post</a>
         </h2>
         <div class="post-byline">
           <img src="https://gravatar.com/avatar/ffda7d145b83c4b118f982401f962ca6?s=150" alt="">
@@ -175,7 +185,17 @@
     <ul class="footer-nav nav-links">
       <li><a href="/">Home</a></li>
 <li><a href="/gallery">Gallery</a></li>
-<li><a href="/blog">Blog</a></li>
+<li class="dropdown">
+  <span class="drop-trigger">Blog</span>
+  <ul class="drop-menu">
+    <li>Recent Posts</li>
+    
+      <li> <a href="/2018/12/26/second-post.html">My second post</a> </li>
+      
+      <li> <a href="/2018/12/17/first-post.html">My first post</a> </li>
+      
+  </ul>
+</li>
 <li><a href="/2018/12/26/second-post.html">Newest Post</a></li>
 
     </ul>

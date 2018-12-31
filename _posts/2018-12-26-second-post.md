@@ -1,6 +1,6 @@
 ---
 layout: post
-title: This is the title of the post
+title: My second post
 postHero: /images/shark.jpg
 author: Web Designer
 authorTwitter: http://twitter.com/mhartl
